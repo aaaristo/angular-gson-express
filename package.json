@@ -1,6 +1,6 @@
 {
   "name": "angular-gson-express",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Demonstrate angularjs + gson + express",
   "main": "app.js",
   "scripts": {
