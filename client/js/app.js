@@ -1,5 +1,5 @@
 angular.module('angular-gson-express',['angular-gson'])
-       .run(function ($http)
+       .run(function ($http,$rootScope)
        {
            var a= { nome: 'andrea' }, e= { nome: 'elena' };
 
@@ -10,5 +10,6 @@ angular.module('angular-gson-express',['angular-gson'])
                 .success(function (a)
                 {
                    console.log(a,a.figlia.papa==a);
+                   $rootScope.a= a;
                 });
        });
