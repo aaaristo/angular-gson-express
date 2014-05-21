@@ -13,6 +13,8 @@ $ git clone git@github.com:aaaristo/angular-gson-express.git
 
 ```sh
 $ cd angular-gson-express
+$ npm install
+$ bower install
 $ node app.js
 ```
 
